@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IsikKontrol : MonoBehaviour {
     public Light isik;
-    public void OnTriggerStay(Collider obje)
+    public void OnTriggerExit(Collider obje)
     {
         if (isik.transform.GetComponent<Light>().enabled)
         {
